@@ -94,6 +94,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 96px;
+  text-align: left;
 }
 
 .numbers h1 {
@@ -115,4 +116,75 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #667085;
+}
+
+.secao2 {
+  margin: 96px 0;
+}
+
+.secao2 .primeiradiv {
+  margin-bottom: 64px;
+}
+
+.secao2 .primeiradiv h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #8E2424;
+  padding-bottom: 16px;
+}
+
+.secao2 .primeiradiv h2 {
+  color: #101828;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  padding-bottom: 20px;
+}
+
+.secao2 .primeiradiv p {
+  color: #667085;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.secao2 div {
+  margin: 64px auto 0;
+  width: 90%;
+}
+
+.secao2 div ul {
+  margin: 0 256px;
+  list-style: none;
+}
+
+.secao2 div .sub {
+  text-align: left;
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #101828;
+}
+
+.secao2 div li {
+  padding: 24px;
+  text-align: left;
+}
+
+.secao2 div li .sub2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #101828;
+  padding-bottom: 32px;
+}
+
+.secao2 div .sub3 {
+  display: inline;
+  padding-right: 24px;
+  color: #667085;
+  font-weight: 500;
+  line-height: 24px;
 }
