@@ -1,3 +1,5 @@
+/* */
+
 /* Reset do CSS */
 
 * {
@@ -112,7 +114,43 @@ header button:last-child {
 
 .sobrenos p:last-child {
   color: var(--gray-500);
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.8rem;
+}
+
+/* Seção de dados */
+
+.dados ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+/* Quantidade do item */
+
+.dados ul li h2 {
+  color: #8E2424;
+  font-size: 3.7rem;
+  font-weight: 600;
+  line-height: 4.5rem;
+  letter-spacing: -1.2px;
+}
+
+/* Item */
+
+.dados ul li h3 {
+  color: var(--gray-900);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+/* Descrição do item */
+
+.dados ul li p {
+  color: var(--gray-500);
+  font-weight: 400;
+  line-height: 1.5rem;
 }
