@@ -1,0 +1,118 @@
+/* Reset do CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Declaração variáveis */
+
+:root {
+  --gray-500: #667085;
+  --base-white: #FFF;
+  --gray-900: #101828;
+}
+
+/* Setando tamanho do body */
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Cabeçalho como um todo */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+/* Imagem logo */
+
+header img {
+  width: 9.25rem;
+}
+
+/* Navegação */
+
+header ul {
+  display: flex;
+  gap: 2rem;
+}
+
+
+/* Itens navegação */
+
+header a {
+  color: var(--gray-500);
+  font-weight: 500;
+  line-height: i.5rem;
+}
+
+/* Log-in */
+
+header button {
+  color: var(--gray-500);
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 0.6rem 1.1rem;
+}
+
+/* Log-in (Entrar) */
+
+header button:first-child {
+  background: none;
+  border: none;
+}
+
+/* Log-in (Cadastrar) */
+
+header button:last-child {
+  color: var(--base-white);
+  border-radius: 0.5rem;
+  border: 0.06rem solid #8E2424;
+  background: #8E2424;
+  box-shadow: 0rem 0.06rem 0.1rem 0rem rgba(16, 24, 40, 0.05);
+}
+
+/* Sonre nós */
+
+.sobrenos {
+  margin: 6rem 0;
+  text-align: center;
+}
+
+/* Sobre nós (Primeiro parágrafo) */
+
+.sobrenos p:first-child {
+  color: #8E2424;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+/* Sobre nós (Título) */
+
+.sobrenos h1 {
+  color: var(--gray-900);
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.7rem;
+  letter-spacing: -0.96px;
+  padding: 1.5rem 0;
+}
+
+/* Sobre nós (Segundo parágrafo) */
+
+.sobrenos p:last-child {
+  color: var(--gray-500);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
